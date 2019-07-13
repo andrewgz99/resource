@@ -1,1 +1,2 @@
 unshare [cmd]
+sudo unshare /bin/bash -c "/sbin/ifconfig lo up ; /sbin/ifconfig ; su - inventor -c /usr/bin/atom"
